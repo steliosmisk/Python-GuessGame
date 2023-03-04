@@ -30,3 +30,5 @@ while user_choice == '1' and user_choice != '2':
             print("Higher :)")
     except ValueError:
         print("Enter a number not a string!")
+        
+    user_choice = input("Enter (1/2): ")
